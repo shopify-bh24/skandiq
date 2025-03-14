@@ -1,9 +1,9 @@
 .search__content .media-wrapper {
-  flex: 0 0 10rem;
+  flex: 0 0 6rem;
 }
 @media (max-width: 767.98px) {
   .search__content .media-wrapper {
-    flex: 0 0 8rem;
+    flex: 0 0 4rem;
   }
 }
 .search__field input:not(:placeholder-shown) ~ .search__reset {
@@ -69,12 +69,12 @@
   padding: 0;
 }
 .search__results-all {
-  padding-block-start: 2.4rem;
+  padding-block-start: 1.4rem;
 }
-.search__box-item {
+/* .search__box-item {
   padding-block-start: 2.4rem;
   border-top: 0.1rem solid rgb(var(--color-border));
-}
+} */
 .search__box-item:first-child {
   padding-block-start: 0;
   border-top: 0;
