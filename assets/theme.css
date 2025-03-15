@@ -4270,6 +4270,7 @@ input:is([type=radio])::after {
 
 .flex-wrap {
   flex-wrap: wrap;
+  gap: 10px;
 }
 .flex-nowrap {
   flex-wrap: nowrap;
@@ -5872,7 +5873,7 @@ body:not(.header-pinned) .header-scrolled .header {
 }
 
 .dropdown {
-  min-width: 250px;
+  /* min-width: 250px; */ 
   width: max-content;
   opacity: 0;
   visibility: hidden;
@@ -5915,6 +5916,8 @@ body:not(.header-pinned) .header-scrolled .header {
   overflow-x: hidden;
   overflow-y: auto;
 }
+
+
 .mega-menu__container {
   padding-block-start: var(--header-height);
   transition: padding var(--animation-nav);
@@ -6012,7 +6015,7 @@ body:not(.header-pinned) .header-scrolled .header {
 
 .dropdown__nav li > :is(details, p) {
   margin: 0;
-  padding-inline: 2.4rem;
+  padding-inline: 1.4rem;
   padding-block: 0.4rem;
 }
 
